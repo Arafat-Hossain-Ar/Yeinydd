@@ -19,18 +19,32 @@ p {
   height: 90vh;
 }
 
-.container .menubar {
+ /* padding of container redecued */
+.container {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 2rem;
+  padding: 3rem 0rem;
   margin: auto;
   align-items: center;
   text-align: center;
-  height: 100px;
+  height: 0 auto;
 }
 
-#showcase .container .menubar {
-  border-top: red 4px solid;
+/* #showcase .container .menubar {
+  border-top: red 40px solid;
+} */
+
+/* Separated menubar  */
+.menubar{
+    border: 2px solid  lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    height: 100px;
 }
 
 #showcase ul {
